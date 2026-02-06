@@ -1,0 +1,128 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+header img{
+    height: 95%;
+    margin-left: 35px;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: gray  ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+nav a{
+    font-family: "Bebas Neue", cursive;
+    color: white;
+    text-decoration: none;
+    padding: 15.25px 20px;
+    transition: .5s;
+    
+}
+
+nav a:hover{
+    background-color: darkgray;
+    border-radius: 10px;
+    color: aliceblue;
+    transform: scale(1.2);
+}
+
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: lightgray;
+    margin: 0 auto;
+
+    background-image: url(../img/Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.personaje{
+    width: 1300px;
+    height: 400px;
+    margin-left: 33px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.foto{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+
+    border-bottom: 4px dashed white;
+}
+
+.foto img{
+    height: 100%;
+    width:  100%;
+}
+
+.info{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+.info h3{
+    font-size: 1.8em;
+    margin: 20px 0
+}
+
+.info a{
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    width: 1366px;
+    height: 300px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer img{
+    height: 80px;
+}
+
+footer p{
+    color: white;
+    margin-top: 10px;
+}
+footer a{
+    display: block;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+     text-decoration: underline;
+}
